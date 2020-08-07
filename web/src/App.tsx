@@ -5,9 +5,7 @@ import Landing from "./pages/Landing";
 import "./assets/styles/global.css";
 
 function App() {
-  return (
-  <Landing />
-  );
+  return <Landing />;
 }
 
 export default App;

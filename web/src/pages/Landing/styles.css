@@ -40,7 +40,7 @@
   width: 30rem;
   height: 10.4rem;
   border-radius: 0.8rem;
-  font: 700 2.0 Archivo;
+  font: 700 2 Archivo;
 
   display: flex;
   align-items: center;
@@ -81,7 +81,7 @@
 }
 
 .total-connections {
-  font-size:1.4rem;
+  font-size: 1.4rem;
 
   display: flex;
   align-items: center;
@@ -99,10 +99,9 @@
     display: grid;
     grid-template-rows: 350px 1fr;
     grid-template-columns: 2fr 1fr 1fr;
-    grid-template-areas: 
+    grid-template-areas:
       "logo hero hero"
-      "buttons buttons total"
-    ;
+      "buttons buttons total";
   }
 
   .logo-container {
