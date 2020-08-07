@@ -20,7 +20,6 @@
   --color-box-base: #ffffff;
   --color-box-footer: #fafafc;
 }
-
 * {
   margin: 0;
   padding: 0;
@@ -34,7 +33,7 @@ body,
 }
 
 body {
-  background-color: var(--color-background);
+  background: var(--color-background);
 }
 
 #root {
